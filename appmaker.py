@@ -4,7 +4,7 @@ from openai import OpenAI
 import requests
     
 # Instantiate the client with your API key
-client = OpenAI(api_key='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')
+client = OpenAI(api_key='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')
 
 def get_response(messages):
     # Create a chat completion with the conversation history
