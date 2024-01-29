@@ -1,10 +1,13 @@
 import os
-import pandas
+from dotenv import load_dotenv
 from openai import OpenAI
-import requests
-    
+
+#Load environment variables
+load_dotenv()
+api_key = os.getenv('API_KEY')
+
 # Instantiate the client with your API key
-client = OpenAI(api_key='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')
+client = OpenAI(api_key=api_key)
 
 def get_response(messages):
     # Create a chat completion with the conversation history
@@ -20,7 +23,7 @@ def get_response(messages):
 def find_and_save_model_files():
     model_directories = ['model', 'models', 'entity']
     all_file_contents = []
-    allowed_extensions = ('.java', '.class', '.py', '.js')
+    allowed_extensions = ('.java', '.class', '.py', '.js', '.db')
     base_path = input("Please provide the project folder: ")
     counter = 0
 
