@@ -35,7 +35,7 @@
 
 # Overview
 
-![SchemaAI Diagram](SchemaAIDiagram.png)
+![SchemaAI Diagram](SchemaAIDiagram.PNG)
 
 The goal of this project was to create an easy way to get a **high level** view of a project or database structure.
 
