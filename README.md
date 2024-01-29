@@ -23,9 +23,9 @@
 
 2. In the ".env" file, type: API_KEY = paste_your_API_key_here (*__No quotations or parenthesis are needed__, just paste the key.*)
 
-1. pip3 install opeanai
+3. pip3 install opeanai
 
-2. pip3 install python-dotenv
+4. pip3 install python-dotenv
 
 5. Provide the path to your project folder.
 
